@@ -1,0 +1,80 @@
+.ao-c-logoBox {
+    display: flex;
+    align-items: center;
+    color: $color_white;
+    padding: 1rem 0 0 0;
+    
+    @include respond(tab-port) { 
+        padding: 1rem 0;
+    }
+}
+
+.ao-c-logoBox__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: #fff;
+}
+
+.ao-c-logoBox__text {
+    text-transform: uppercase;
+    font-size: $font-sizes;
+    padding-left: 1rem;
+}
+
+.ao-c-navigation {
+    padding: 1rem 0;
+    align-items: center;
+    
+    @include respond(tab-port) { 
+        width: 60%;
+    }
+}
+
+.ao-c-navigation__list {
+    list-style: none;
+
+    @include respond(tab-port) {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+
+.ao-c-navigation__item {
+    text-align: center;
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.ao-c-navigation__link {
+    text-decoration: none;
+    color: $color_white;
+    font-size: $font-sizes;
+}
+
+.ao-c-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color_white;
+    padding: 1rem 0;
+}
+
+.ao-c-search__icon {
+    height: $font-sizes;
+    width: $font-sizes;
+    fill: $color_white;
+}
+
+.ao-c-search__text {
+    font-size: $font-sizes;
+    padding-left: .5rem;
+}
+
