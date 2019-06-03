@@ -23,6 +23,11 @@ body {
       flex-direction: row;
       justify-content: space-between; } }
 
+.ao-l-connect {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%; }
+
 .ao-c-logoBox {
   display: flex;
   align-items: center;
@@ -86,3 +91,95 @@ body {
 .ao-c-search__text {
   font-size: 1.4rem;
   padding-left: .5rem; }
+
+.ao-c-title {
+  color: #1e5d69;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 0; }
+  @media (min-width: 910px) {
+    .ao-c-title {
+      font-size: 4rem; } }
+
+@media (min-width: 910px) {
+  .ao-c-content {
+    display: flex;
+    justify-content: space-between; } }
+
+@media (min-width: 910px) {
+  .ao-c-textBox {
+    flex: 0 0 48%; } }
+
+.ao-c-textBox__topBox {
+  margin-bottom: 6rem; }
+
+.ao-c-heading {
+  color: #1e5d69;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem; }
+
+.ao-c-textBox__bottomBox {
+  margin-bottom: 6rem; }
+
+.ao-c-imageBox {
+  margin-bottom: 3rem; }
+  @media (min-width: 600px) {
+    .ao-c-imageBox {
+      flex: 0 0 48%; } }
+
+.ao-c-connectimage {
+  width: 100%; }
+
+.ao-l-adventureSection {
+  background-image: linear-gradient(rgba(0, 147, 175, 0.9), rgba(0, 147, 175, 0.3)), url(../../images/img-bg-adventure.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+  padding: 10rem 5%; }
+
+.ao-c-adventureSection__heading {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3rem; }
+
+.ao-c-adventureSection__wrap {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 910px) {
+    .ao-c-adventureSection__wrap {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; } }
+
+.ao-c-adventureSection__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+  text-align: center; }
+  @media (min-width: 910px) {
+    .ao-c-adventureSection__card {
+      flex: 0 0 20%;
+      margin-bottom: 0; } }
+
+.ao-c-card__icon {
+  margin: 2rem 0;
+  width: 5rem;
+  height: 4rem;
+  fill: #1e5d69; }
+
+.ao-c-adventureSection__title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #1e5d69;
+  margin-bottom: 2rem; }
+
+.ao-c-adventureSection__text {
+  padding: 0 1rem;
+  text-align: center;
+  margin-bottom: 3rem; }
