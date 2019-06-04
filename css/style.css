@@ -190,7 +190,7 @@ body {
       flex: 0 0 22%;
       margin-bottom: 0; } }
 
-.ao-c-card__icon {
+.ao-c-adventureSection-card__icon {
   margin: 3rem 0;
   width: 5rem;
   height: 5rem;
@@ -290,3 +290,70 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 30px; }
+
+.ao-l-footer {
+  background-color: #1e5d69;
+  padding: 7rem 0 0 0; }
+
+.ao-c-footer__navigation {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center; }
+
+.ao-c-footer__navigation__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold; }
+
+.ao-c-footer__socialMedia {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 0 4rem 0; }
+
+.ao-c-footer__socialMedia__icons {
+  list-style: none; }
+
+.ao-c-footer__socialMedia__iconLink {
+  text-decoration: none;
+  padding: 1rem; }
+
+.ao-c-footer__socialMedia__icon {
+  border-radius: 16px;
+  fill: #fff;
+  background-color: #0093af;
+  padding: .3rem;
+  width: 3rem;
+  height: 3em; }
+
+.ao-c-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b373c;
+  padding: 1rem 5%; }
+
+.ao-c-footer__copyright__logoBox {
+  display: flex;
+  align-items: center; }
+
+.ao-c-footer__copyright__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+  fill: #fff; }
+
+.ao-c-footer__copyright__text {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase; }
+
+.ao-c-footer__copyright__sign {
+  color: #fff;
+  font-size: 1.2rem; }
