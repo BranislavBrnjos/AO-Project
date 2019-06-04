@@ -1,0 +1,25 @@
+{
+  "name": "ao-project",
+  "version": "1.0.0",
+  "description": "Always Outdors",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BranislavBrnjos/AO-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BranislavBrnjos/AO-Project/issues"
+  },
+  "homepage": "https://github.com/BranislavBrnjos/AO-Project#readme",
+  "dependencies": {
+    "node-sass-import": "^2.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

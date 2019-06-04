@@ -1,0 +1,14 @@
+.ao-l-header {
+    background-color: $color_nav;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    align-items: center;
+
+    @include respond(tab-port) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
