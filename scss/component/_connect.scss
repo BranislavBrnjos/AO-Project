@@ -1,0 +1,65 @@
+.ao-c-title {
+    color: $color_main;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin: 4rem 0 5rem 0;
+
+    @include respond(tab-port) {
+        font-size: 4rem;
+    }
+
+    @include respond(tab-land) {
+        margin: 6.5rem 0 7.5rem 0;
+        font-size: 4rem;
+    }
+}
+
+.ao-c-content {
+    margin-bottom: 6rem;
+
+    @include respond(tab-land) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.ao-c-textBox {
+    margin-bottom: 6rem;
+
+    @include respond(tab-port) {
+        flex: 0 0 49%;
+        margin-bottom: 0;
+        
+    }
+}
+
+.ao-c-textBox__topBox {
+    margin-bottom: 6rem;
+    
+}
+
+.ao-c-heading {
+    color: $color_main;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.ao-c-text {
+    font-size: 1.3rem;
+}
+
+.ao-c-textBox__bottomBox {
+    margin-bottom: 3rem;
+}
+
+.ao-c-imageBox {
+
+    @include respond(tab-port) {
+        flex: 0 0 49%;
+    }
+}
+
+.ao-c-connectimage {
+    width: 100%;
+}

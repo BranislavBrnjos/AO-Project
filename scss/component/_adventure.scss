@@ -1,0 +1,57 @@
+.ao-c-adventureSection__heading {
+    font-size: 3rem;
+    color: $color_white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.ao-c-adventureSection__wrap {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+
+    @include respond(tab-port) {
+        justify-content: space-evenly;
+    }
+}
+
+.ao-c-adventureSection__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, .8);
+    margin-bottom: 3rem;
+    text-align: center;
+    flex: 0 0 80%;
+
+    @include respond(tab-port) {
+        flex: 0 0 40%;
+    }
+
+    @include respond(tab-land) {
+        flex: 0 0 22%;
+        margin-bottom: 0;
+    }
+}
+
+.ao-c-card__icon {
+    margin: 3rem 0;
+    width: 5rem;
+    height: 5rem;
+    fill: $color_main;
+}
+
+.ao-c-adventureSection__title {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: $color_main;
+    margin-bottom: 3rem;
+}
+
+.ao-c-adventureSection__text {
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
