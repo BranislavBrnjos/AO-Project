@@ -1,0 +1,52 @@
+.ao-c-title {
+    color: $color_main;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+
+    @include respond(tab-land) { 
+        font-size: 4rem;
+    }
+}
+
+.ao-c-content {
+
+    @include respond(tab-land) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.ao-c-textBox {
+    @include respond(tab-land) {
+        flex: 0 0 48%;
+
+    }
+}
+
+.ao-c-textBox__topBox {
+    margin-bottom: 6rem;
+}
+
+.ao-c-heading {
+    color: $color_main;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.ao-c-textBox__bottomBox {
+    margin-bottom: 6rem;
+}
+
+.ao-c-imageBox {
+    margin-bottom: 3rem;
+    
+    @include respond(tab-port) {
+        flex: 0 0 48%;
+    }
+}
+
+.ao-c-connectimage {
+    width: 100%;
+}
