@@ -1,0 +1,12 @@
+.ao-l-adventureSection {
+    background-image: linear-gradient(rgba(0,147,175, 0.9), rgba(0,147,175,0.3)), url(../../images/img-bg-adventure.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    padding: 20rem 5%; 
+
+    @include respond(tab-port) {
+        padding: 10rem 5%;
+    }
+}

@@ -17,16 +17,16 @@
 
 .ao-c-logoBox__text {
     text-transform: uppercase;
-    font-size: $font-sizes;
+    font-size: 1.6rem;
     padding-left: 1rem;
 }
 
 .ao-c-navigation {
-    padding: 1rem 0;
+    padding: 1rem 0 ;
     align-items: center;
     
     @include respond(tab-port) { 
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -56,7 +56,7 @@
 .ao-c-navigation__link {
     text-decoration: none;
     color: $color_white;
-    font-size: $font-sizes;
+    font-size: 1.4rem;
 }
 
 .ao-c-search {
@@ -68,13 +68,13 @@
 }
 
 .ao-c-search__icon {
-    height: $font-sizes;
-    width: $font-sizes;
+    height: 1.6rem;
+    width: 1.6rem;
     fill: $color_white;
 }
 
 .ao-c-search__text {
-    font-size: $font-sizes;
+    font-size: 1.6rem;
     padding-left: .5rem;
 }
 

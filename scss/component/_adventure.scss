@@ -1,31 +1,19 @@
-.ao-l-adventureSection {
-    background-image: linear-gradient(rgba(0,147,175, 0.9), rgba(0,147,175,0.3)), url(../../images/img-bg-adventure.jpg);
-    background-size: cover;
-    background-position: center;
-    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
-    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
-    padding: 10rem 5%; 
-
-}
-
 .ao-c-adventureSection__heading {
-    font-size: 2rem;
+    font-size: 3rem;
     color: $color_white;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 .ao-c-adventureSection__wrap {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;    
+    justify-content: center;
 
-    @include respond(tab-land) {
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
+    @include respond(tab-port) {
+        justify-content: space-evenly;
     }
-
 }
 
 .ao-c-adventureSection__card {
@@ -33,19 +21,24 @@
     flex-direction: column;
     align-items: center;
     background: rgba(255, 255, 255, .8);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
+    flex: 0 0 80%;
+
+    @include respond(tab-port) {
+        flex: 0 0 40%;
+    }
 
     @include respond(tab-land) {
-        flex: 0 0 20%;
+        flex: 0 0 22%;
         margin-bottom: 0;
     }
 }
 
 .ao-c-card__icon {
-    margin: 2rem 0;
+    margin: 3rem 0;
     width: 5rem;
-    height: 4rem;
+    height: 5rem;
     fill: $color_main;
 }
 
@@ -53,11 +46,12 @@
     font-size: 1.6rem;
     text-transform: uppercase;
     color: $color_main;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .ao-c-adventureSection__text {
     padding: 0 1rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }

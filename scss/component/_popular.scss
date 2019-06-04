@@ -1,0 +1,108 @@
+.ao-c-popularSection__heading {
+    font-size: 3rem;
+    color: $color_main;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.ao-c-popularSection__wrap {
+    @include respond(tab-land) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.ao-c-popularSection__card {
+    width: 80%;
+    text-align: center;
+    box-shadow: 5px 14px 15px -4px rgba(0,0,0,0.63);
+    margin: 0 auto;
+    margin-bottom: 9rem;
+
+    @include respond(tab-port) {
+        width: 50%;
+    }
+
+    @include respond(tab-land) {
+        flex: 0 0 30%;
+    }
+}
+
+.ao-c-popularSection__card--white {
+    color: $color_main;
+}
+
+.ao-c-popularSection__card--dark {
+    background-color: $color_main;
+    color: $color_white;
+}
+
+.ao-c-popularSection__background {
+    min-height: 20rem;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 0% 100%);
+    background-position: center;
+    background-size: cover;
+}
+
+.ao-c-popularSection__background--1 {
+    background-image: url(../../images/img-sea.jpg);
+}
+
+.ao-c-popularSection__background--2 {
+    background-image: url(../../images/img-snow.jpg);
+}
+
+.ao-c-popularSection__background--3 {
+    background-image: url(../../images/img-forest.jpg);
+}
+
+.ao-c-popularSection__cardTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1rem 0 3rem 0;
+}
+
+.ao-c-popularSection__list {
+    list-style: none;
+}
+
+.ao-c-popularSection__offers {
+    font-size: 1.4rem;
+    width: 70%;
+    margin: 0 auto;
+
+    &:not(:first-child) {
+        padding-top: 1rem;
+    }
+
+    &:not(:last-child) {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid grey;
+    }
+
+    &:last-child {
+        padding-bottom: 5rem;
+    }
+}
+
+.ao-c-popularSection__offers--dark {
+    &:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
+}
+
+.ao-c-popularSection__button {
+    font-size: 1.4rem;
+    color: $color_white;
+    padding: 2rem 4rem;
+    background-image: linear-gradient(90deg, #1e5d69 0%, #0093af 100%);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
